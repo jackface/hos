@@ -1,0 +1,41 @@
+#spriteType = {
+#		name = "GFX_pol_factions_strip"
+#		texturefile = "gfx\\interface\\pol_factions_strip.tga"
+#		noOfFrames = 4
+#	}	
+#	
+#	spriteType = {
+#		name = "GFX_ideology_fascism_group"
+#		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+#	}
+#	
+#	spriteType = {
+#		name = "GFX_ideology_monarchism_group"
+#		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
+#	}
+#	
+#	spriteType = {
+#		name = "GFX_ideology_communism_group"
+#		texturefile = "gfx/interface/ideologies/communism_group.dds"
+#	}
+#	
+#	spriteType = {
+#		name = "GFX_ideology_democratic_group"
+#		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+#	}
+#	
+#	spriteType = {
+#		name = "GFX_ideology_theocratic_group"
+#		texturefile = "gfx/interface/ideologies/theocracy_group.dds"
+#	}
+#	
+#	spriteType = {
+#		name = "GFX_ideology_autocracy_group"
+#		texturefile = "gfx/interface/ideologies/autocracy_group.dds"
+#	}
+#	
+#	spriteType = {
+#		name = "GFX_ideology_unknown"
+#		texturefile = "gfx/interface/ideologies/unknown.dds"
+#		legacy_lazy_load = no
+#	}

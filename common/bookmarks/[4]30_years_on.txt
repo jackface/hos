@@ -1,0 +1,92 @@
+bookmarks = {
+	bookmark = {
+		name = "YEARS_ON_NAME"
+		desc = "YEARS_ON_DESC"
+		date = 1975.12.26.12
+		picture = "GFX_select_date_1975"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_YEARS_ON_DESC
+			ideology = market_liberalism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		USA = {
+			history = USA_YEARS_ON_DESC
+			ideology = market_liberalism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_YEARS_ON_DESC
+			ideology = market_liberalism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_YEARS_ON_DESC
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ITA = {
+			history = ITA_YEARS_ON_DESC
+			ideology = fascism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}			
+		}
+		JAP = {
+			history = JAP_YEARS_ON_DESC
+			ideology = fascism
+			ideas={
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_YEARS_ON_DESC
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_YEARS_ON_DESC"
+		}
+
+		# minors from DLC ####
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

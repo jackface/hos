@@ -1,0 +1,90 @@
+bookmarks = {
+	bookmark = {
+		name = "ALLIED_VICTORY_NAME"
+		desc = "ALLIED_VICTORY_DESC"
+		date = 1946.1.1.12
+		picture = "GFX_select_date_1946"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_ALLIED_VICTORY_DESC
+			ideology = market_liberalism
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		USA = {
+			history = USA_ALLIED_VICTORY_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_ALLIED_VICTORY_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_ALLIED_VICTORY_DESC
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ITA = {
+			history = ITA_ALLIED_VICTORY_DESC
+			ideology = fascism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}			
+		}
+		JAP = {
+			history = JAP_ALLIED_VICTORY_DESC
+			ideology = fascism
+			ideas={
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_ALLIED_VICTORY_DESC
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_ALLIED_VICTORY_DESC"
+		}
+
+		# minors from DLC ####
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

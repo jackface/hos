@@ -1,0 +1,92 @@
+bookmarks = {
+	bookmark = {
+		name = "FACING_THREAT_NAME"
+		desc = "FACING_THREAT_DESC"
+		date = 1962.12.26.12
+		picture = "GFX_select_date_1962"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_FACING_THREAT_DESC
+			ideology = market_liberalism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		USA = {
+			history = USA_FACING_THREAT_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_FACING_THREAT_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_FACING_THREAT_DESC
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ITA = {
+			history = ITA_FACING_THREAT_DESC
+			ideology = fascism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}			
+		}
+		JAP = {
+			history = JAP_FACING_THREAT_DESC
+			ideology = fascism
+			ideas={
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_FACING_THREAT_DESC
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_FACING_THREAT_DESC"
+		}
+
+		# minors from DLC ####
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

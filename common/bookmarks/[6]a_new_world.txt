@@ -1,0 +1,91 @@
+bookmarks = {
+	bookmark = {
+		name = "NEW_WORLD_NAME"
+		desc = "NEW_WORLD_DESC"
+		date = 2011.12.26.12
+		picture = "GFX_select_date_2011"
+		default_country = "ENG"
+	
+		FRA = {
+			history = FRA_NEW_WORLD_DESC
+			ideology = market_liberalism
+			ideas={
+				
+			}
+			focuses = {
+			}
+		}
+		USA = {
+			history = USA_NEW_WORLD_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_NEW_WORLD_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_NEW_WORLD_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ITA = {
+			history = ITA_NEW_WORLD_DESC
+			ideology = market_liberalism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}			
+		}
+		JAP = {
+			history = JAP_NEW_WORLD_DESC
+			ideology = market_liberalism
+			ideas={
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_NEW_WORLD_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_NEW_WORLD_DESC"
+		}
+
+		# minors from DLC ####
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

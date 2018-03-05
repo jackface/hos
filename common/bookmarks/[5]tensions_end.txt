@@ -1,0 +1,91 @@
+bookmarks = {
+	bookmark = {
+		name = "TENSIONS_END_NAME"
+		desc = "TENSIONS_END_DESC"
+		date = 1991.12.26.12
+		picture = "GFX_select_date_1991"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_TENSIONS_END_DESC
+			ideology = market_liberalism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		USA = {
+			history = USA_TENSIONS_END_DESC
+			ideology = market_liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_TENSIONS_END_DESC
+			ideology = market_liberalism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_TENSIONS_END_DESC
+			ideology = fascism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		ITA = {
+			history = ITA_TENSIONS_END_DESC
+			ideology = fascism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}			
+		}
+		JAP = {
+			history = JAP_TENSIONS_END_DESC
+			ideology = fascism
+			ideas={
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_TENSIONS_END_DESC
+			ideology = communism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_TENSIONS_END_DESC"
+		}
+
+		# minors from DLC ####
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
