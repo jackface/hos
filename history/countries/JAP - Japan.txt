@@ -2,7 +2,7 @@
 
 oob = "JAP_1936"
 
-set_national_unity = 0.65
+#set_national_unity = 0.65
 
 set_research_slots = 4
 
@@ -83,11 +83,8 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
-		}
 
-		fascism = {
+		monarchism = {
 			popularity = 100
 		}
 		
@@ -97,66 +94,20 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-
 create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Japan_Hirohito.dds"
+	picture = "Portrait_JAP_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = fascism_ideology
+	ideology = absolutism
 	traits = {
 		warrior_code
-	}
-}
-
-create_country_leader = {
-	name = "Kyuichi Tokuda"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
-	expire = "1989.1.1"
-	ideology = marxism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_tetsu_katayama"
-	expire = "1989.1.1"
-	ideology = liberalism
-	traits = {
 	}
 }
 
