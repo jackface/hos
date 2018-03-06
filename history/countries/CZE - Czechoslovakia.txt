@@ -23,12 +23,8 @@ set_research_slots = 3
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_liberalism = { 
 			popularity = 65
-		}
-
-		neutrality = { 
-			popularity = 20
 		}
 
 		fascism = {
@@ -40,7 +36,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_liberalism
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
@@ -49,31 +45,9 @@ set_politics = {
 create_country_leader = {
 	name = "Edvard Beneš"
 	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
+	picture = "Portrait_CZE_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jaroslav Krejčí"
-	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Klement Gottwald"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
-	picture = "Portrait_Czech_Klement_Gottwald.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = subsocial_liberalism
 	traits = {
 		#
 	}
