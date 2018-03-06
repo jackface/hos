@@ -117,6 +117,46 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Otto Wels"
+	desc = "POLITICS_OTTO_WELS_DESC"
+	picture = "Portrait_GER_Otto_Wels.dds"
+	expire = "1965.1.1"
+	ideology = subsocialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Hugenberg"
+	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+	picture = "Portrait_GER_Alfred_Hugenberg.dds"
+	expire = "1965.1.1"
+	ideology = subreactionary
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Paul von Lettow-Vorbeck"
+	desc = "POLITICS_PAUL_VON_LETTOW_VORBECK_DESC"
+	picture = "Portrait_GER_Paul_von_Lettow_Vorbeck.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = "Portrait_GER_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Eduard Dingeldey"
 	desc = "POLITICS_EDUARD_DINGELDEY_DESC"
 	picture = "Portrait_GER_Eduard_Dingeldey.dds"
