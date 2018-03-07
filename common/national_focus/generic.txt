@@ -27,7 +27,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = {	
 		id = industrial_effort
 		icon = GFX_goal_generic_production
 		cost = 10.00
