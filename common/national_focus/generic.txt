@@ -1425,6 +1425,7 @@ focus_tree = {
 				category = rocketry
 				category = jet_technology
 			}
+		}
 	}
 	focus = {
 		id = NAV__effort
@@ -1473,6 +1474,7 @@ focus_tree = {
 					}
 				}
 			}
+		}
 	}
 	focus = {
 		id = large_navy
@@ -1500,6 +1502,7 @@ focus_tree = {
 					}
 				}
 			}
+		}
 	}
 	focus = {
 		id = submarine_effort
