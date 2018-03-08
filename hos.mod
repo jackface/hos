@@ -4,4 +4,4 @@ tags={
 	"Historical"
 	"Events"
 }
-supported_version="1.4.2"
+supported_version="1.5.*"
