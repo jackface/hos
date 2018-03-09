@@ -15,7 +15,12 @@ country_event = {
 
 	trigger = {
 		has_government = fascism
-		FROM = { has_government = neutrality }
+		FROM = { 
+			OR = {
+				has_government = authoritarian
+				has_government = monarchism 
+			}
+		}
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -47,7 +52,7 @@ country_event = {
 				has_government = market_liberalism
 				has_government = socialism
 				has_government = conservatism
-				has_government = reactionary
+				has_government = reactionary 
 			}
 		}
 		NOT = { has_country_flag = war_justification_last_event_political }
@@ -127,7 +132,12 @@ country_event = {
 
 	trigger = {
 		has_government = communism
-		FROM = { has_government = neutrality }
+		FROM = { 
+			OR = {
+				has_government = authoritarian
+				has_government = monarchism 
+			}
+		}
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -160,7 +170,7 @@ country_event = {
 				has_government = socialism
 				has_government = conservatism
 				has_government = reactionary 
-			}
+			} 
 		}
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -243,9 +253,14 @@ country_event = {
 			has_government = market_liberalism
 			has_government = socialism
 			has_government = conservatism
-			has_government = reactionary
+			has_government = reactionary 
 		}
-		FROM = { has_government = neutrality }
+		FROM = { 
+			OR = {
+				has_government = authoritarian
+				has_government = monarchism 
+			} 
+		}
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -275,17 +290,16 @@ country_event = {
 			has_government = market_liberalism
 			has_government = socialism
 			has_government = conservatism
-			has_government = reactionary
+			has_government = reactionary 
 		}
-		
 		FROM = { 
 			OR = {
 				has_government = social_liberalism
 				has_government = market_liberalism
 				has_government = socialism
 				has_government = conservatism
-				has_government = reactionary
-			}
+				has_government = reactionary 
+			} 
 		}
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -316,7 +330,7 @@ country_event = {
 			has_government = market_liberalism
 			has_government = socialism
 			has_government = conservatism
-			has_government = reactionary
+			has_government = reactionary 
 		}
 		FROM = { has_government = communism }
 		NOT = { has_country_flag = war_justification_last_event_political }
@@ -348,7 +362,7 @@ country_event = {
 			has_government = market_liberalism
 			has_government = socialism
 			has_government = conservatism
-			has_government = reactionary
+			has_government = reactionary 
 		}
 		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
@@ -375,8 +389,16 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = neutrality
-		FROM = { has_government = neutrality }
+		OR = {
+			has_government = authoritarian
+			has_government = monarchism 
+		}
+		FROM = { 
+			OR = {
+				has_government = authoritarian
+				has_government = monarchism 
+			} 
+		}
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -401,14 +423,17 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = neutrality
+		OR = {
+			has_government = authoritarian
+			has_government = monarchism 
+		}
 		FROM = { 
 			OR = {
 				has_government = social_liberalism
 				has_government = market_liberalism
 				has_government = socialism
 				has_government = conservatism
-				has_government = reactionary
+				has_government = reactionary 
 			}
 		}
 		NOT = { has_country_flag = war_justification_last_event_political }
@@ -435,7 +460,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = neutrality
+		OR = {
+			has_government = authoritarian
+			has_government = monarchism 
+		}
 		FROM = { has_government = communism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -461,7 +489,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = neutrality
+		OR = {
+			has_government = authoritarian
+			has_government = monarchism 
+		}
 		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -891,25 +922,24 @@ country_event = {
 	option = {
 		name = war_justification.301.a
 		trigger = { 
-			has_government = social_liberalism
-			has_government = market_liberalism
-			has_government = socialism
-			has_government = conservatism
-			has_government = reactionary
+			OR = {
+				has_government = social_liberalism
+				has_government = market_liberalism
+				has_government = socialism
+				has_government = conservatism
+				has_government = reactionary 
+			}
 		}
 		add_political_power = -30
-		add_national_unity = -0.03
-		#add_popularity = {
-		#	ideology = democratic
-		#	popularity = -0.05
-		#}
+		add_war_support = -0.05
+		
 	}
 
 	option = {
 		name = war_justification.301.b
 		trigger = { has_government = communism }
 		add_political_power = -30
-		add_national_unity = -0.03
+		add_war_support = -0.05
 		add_popularity = {
 			ideology = communism
 			popularity = -0.05
@@ -921,11 +951,12 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = fascism
-				has_government = neutrality
+				has_government = authoritarian
+				has_government = monarchism
 			}
 		}
 		add_political_power = -30
-		add_national_unity = -0.03
+		add_war_support = -0.05
 		add_popularity = {
 			ideology = fascism
 			popularity = -0.05

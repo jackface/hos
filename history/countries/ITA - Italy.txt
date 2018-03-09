@@ -5,7 +5,6 @@ oob = "ITA_1936"
 set_research_slots = 4
 
 add_ideas = {
-	victor_emmanuel
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation

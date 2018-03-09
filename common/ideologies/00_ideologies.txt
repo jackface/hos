@@ -36,7 +36,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		ai_neutral = yes # uses the commie AI behaviour
 		
 		rules = {
 			can_force_government = no
@@ -99,7 +99,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes # uses the democratic AI behaviour
 	}
 	
 	social_liberalism = {
@@ -147,7 +147,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes # uses the democratic AI behaviour
 	}
 	
 	market_liberalism = {
@@ -195,7 +195,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes # uses the democratic AI behaviour
 	}
 	
 	conservatism = {
@@ -243,7 +243,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes # uses the democratic AI behaviour
 	}
 	
 	reactionary = {
@@ -291,7 +291,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes # uses the democratic AI behaviour
 	}
 	
 	authoritarian = {
@@ -328,7 +328,7 @@ ideologies = {
 			justify_war_goal_when_in_major_war_time = -0.80
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes # uses the fascist AI behaviour
 	}
 	
 	monarchism = {
@@ -365,7 +365,7 @@ ideologies = {
 			justify_war_goal_when_in_major_war_time = -0.80
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes # uses the fascist AI behaviour
 	}
 	
 	fascism = {
@@ -408,7 +408,7 @@ ideologies = {
 			justify_war_goal_when_in_major_war_time = -0.80
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes # uses the fascist AI behaviour
 	}
 
 

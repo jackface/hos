@@ -50,7 +50,7 @@ set_politics = {
 }
 
 set_convoys = 500
-set_national_unity = 0.75
+set_stability = 0.70
 
 create_country_leader = {
 	name = "Hendrikus Colijn"
