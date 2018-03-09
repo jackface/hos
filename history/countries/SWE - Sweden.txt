@@ -29,32 +29,24 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 75
+		social_liberalism = { 
+			popularity = 50
 		}
-
-		neutrality = {
-			popularity  = 14
-		}
-
-		communism = {
-			popularity = 8
-		}
-
-		fascism = {
-			popularity = 3
+		
+		market_liberalism = {
+			popularity = 50
 		}
 		
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_liberalism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_convoys = 25
-set_national_unity = 0.9
+set_stability = 0.9
 
 
 
@@ -62,42 +54,9 @@ set_national_unity = 0.9
 create_country_leader = {
 	name = "Per Albin Hansson"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
+	picture = "Portrait_SWE_Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sven Olov Lindholm"
-	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sven Linderot"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Axel Pehrsson-Bramstorp"
-	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	ideology = subsocial_liberalism
 	traits = {
 		#
 	}

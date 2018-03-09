@@ -24,10 +24,6 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 15
-		}
-
 		fascism = {
 			popularity = 10
 		}
@@ -37,59 +33,26 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
-			popularity = 60
+		monarchism = { 
+			popularity = 75
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.5.3"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 
-#set_national_unity = 0.6
+set_stability = 0.6
 
 create_country_leader = {
 	name = "Prince Paul"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
+	picture = "Portrait_YUG_Prince_Paul.dds"
 	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Milan Grol"
-	desc = "POLITICS_MILAN_GROL_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Josip Broz Tito"
-	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
-	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
-	expire = "1965.1.1"
-	ideology = leninism
+	ideology = absolutism
 	traits = {
 		#
 	}

@@ -14,11 +14,6 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
-			banned = yes
-		}
-
 		fascism = {
 			popularity = 0
 			banned = yes
@@ -39,7 +34,7 @@ set_politics = {
 create_country_leader = {
 	name = "Salchak Toka"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+	picture = "Portrait_TAN_Salchak_Toka.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {

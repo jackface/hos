@@ -14,11 +14,11 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
+		socialism = { 
 			popularity = 5
 		}
 
-		fascism = {
+		authoritarian = {
 			popularity = 80
 		}
 		
@@ -28,7 +28,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,20 +37,9 @@ set_politics = {
 create_country_leader = {
 	name = "Eleazar López Contreras"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
-	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
+	picture = "Portrait_VEN_Elezar_Lopez_Contreras.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Juan Bautista Fuenmayor"
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = oligarchism
 	traits = {
 		#
 	}

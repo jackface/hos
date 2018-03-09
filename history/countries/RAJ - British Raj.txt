@@ -29,24 +29,12 @@ set_cosmetic_tag = RAJ_UK # British Raj
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 17
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 1
-		}
-
-		neutrality = {
-			popularity = 80
+		authoritarian = {
+			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,43 +43,9 @@ set_politics = {
 create_country_leader = {
 	name = "Lord Linlithgow"
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	picture = "Portrait_RAJ_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
 	ideology = despotism
-	traits = {
-		
-	}
-}
-
-# REVISIT Unclear if appropriate for this ideology
-create_country_leader = {
-	name = "V. D. Savarkar"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "P. Krishna Pillai"
-	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
-	picture = "GFX_RAJ_krishna_pillai"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "B. P. Sitaramayya"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
-	expire = "1965.1.1"
-	ideology = socialism
 	traits = {
 		
 	}

@@ -28,20 +28,32 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 47
+		market_liberalism = { 
+			popularity = 30
 		}
 
-		fascism = {
-			popularity = 46
+		conservatism = {
+			popularity = 30
 		}
 		
-		communism = {
-			popularity = 7
+		social_liberalism = {
+			popularity = 5
+		}
+		
+		fascism = {
+			popularity = 5
+		}
+		
+		monarchism = {
+			popularity = 5
+		}
+		
+		socialism = {
+			popularity = 25
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = market_liberalism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -51,44 +63,11 @@ set_convoys = 150
 set_national_unity = 0.5
 
 create_country_leader = {
-	name = "Manuel Azana"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_Spain_Manuel_Azana.dds"
+	name = "Niceto Alcalá-Zamora"
+	desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
+	picture = "Portrait_SPR_Niceto_Alcala_Zamora.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "José Díaz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco Franco"
-	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	ideology = submarket_liberalism
 	traits = {
 		#
 	}

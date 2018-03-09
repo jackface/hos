@@ -60,7 +60,7 @@ give_guarantee = ARG
 give_guarantee = URG
 
 set_convoys = 400
-set_national_unity = 0.6
+set_stability = 0.6
 
 set_politics = {
 
@@ -92,9 +92,44 @@ add_ideas = {
 
 
 # DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_american_protectorate
+		freedom_level = 0.65
+	}
+	
+	else = {
+		puppet = PHI
+	}
+}
+
+PHI = {
+	set_politics = {
+
+		parties = {
+			conservatism = { 
+				popularity = 82
+			}
+
+			fascism = {
+				popularity = 9
+			}
+		
+			communism = {
+				popularity = 9
+				#banned = no #default is no
+			}
+		}
+	
+		ruling_party = conservatism
+		last_election = "1935.9.15"
+		election_frequency = 72
+		elections_allowed = no
+	}
 }
 
 create_country_leader = {

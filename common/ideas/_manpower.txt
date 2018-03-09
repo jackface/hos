@@ -60,27 +60,7 @@ ideas = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-				}
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = CAN_commit_to_the_war
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
+				
 
 				
 			}
@@ -122,29 +102,7 @@ ideas = {
 					}					
 				}
 				#Special rules AST in TFV
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}				
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = CAN_commit_to_the_war
-					has_completed_focus = CAN_if_day
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
+				
 
 			}
 
@@ -200,32 +158,7 @@ ideas = {
 					}
 				}
 
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_compromise_with_quebec
-						has_completed_focus = CAN_forced_quebec_conscription
-					}
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
+				
 
 			}
 
@@ -285,32 +218,7 @@ ideas = {
 				#	}
 				#}
 
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_compromise_with_quebec
-						has_completed_focus = CAN_forced_quebec_conscription
-					}					
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
+				
 
 			}
 
@@ -371,32 +279,7 @@ ideas = {
 				#		ratio > 1
 				#	}
 				#}
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_compromise_with_quebec
-						has_completed_focus = CAN_forced_quebec_conscription
-					}
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
+				
 
 			}
 

@@ -18,6 +18,9 @@ ideologies = {
 			
 			anarchist_communism = {
 			}
+			
+			maoism = {
+			}
 		}
 		
 		dynamic_faction_names = {

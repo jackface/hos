@@ -15,46 +15,46 @@ set_technology = {
 
 set_convoys = 5
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 82
-		}
-
-		fascism = {
-			popularity = 9
-		}
-		
-		communism = {
-			popularity = 9
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1935.9.15"
-	election_frequency = 72
-	elections_allowed = yes
-}
+#set_politics = {
+#
+#	parties = {
+#		social_liberalism = { 
+#			popularity = 82
+#		}
+#
+#		fascism = {
+#			popularity = 9
+#		}
+#		
+#		communism = {
+#			popularity = 9
+#			#banned = no #default is no
+#		}
+#	}
+#	
+#	ruling_party = social_liberalism
+#	last_election = "1935.9.15"
+#	election_frequency = 72
+#	elections_allowed = yes
+#}
 
 create_country_leader = {
 	name = "Manuel Luis Quezón"
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	picture = "Portrait_PHI_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = subconservatism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Pedro P. Baguisa"
-	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	name = "Manuel Luis Quezón"
+	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	picture = "Portrait_PHI_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = subsocial_liberalism
 	traits = {
 		#
 	}
