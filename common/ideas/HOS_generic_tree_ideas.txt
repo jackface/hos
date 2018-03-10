@@ -1,0 +1,21 @@
+ideas = {
+	
+	country = {
+		
+		idea_workers_revolution = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				communism_drift = 0.01
+			}
+			
+
+		}
+		
+	}
+
+}
