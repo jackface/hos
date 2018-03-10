@@ -1,0 +1,22 @@
+state={
+	id=767
+	name="STATE_767"
+	provinces={
+		13205 
+	}
+	
+	history = {
+		owner = VAT
+		
+		buildings = {
+			infrastructure = 2
+			
+		}
+		add_core_of = VAT
+		
+	}
+	
+	manpower=1000
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

@@ -47,7 +47,18 @@ set_technology = {
 	}
 	give_guarantee = ALB
 
-
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	set_autonomy = {
+		target = SMR
+		autonomous_state = autonomy_satellite
+	}
+	else = {
+		puppet = SMR
+	}
+}
 
 set_convoys = 200
 #set_national_unity = 0.6

@@ -111,4 +111,11 @@ KEN = "countries/Kenya.txt"
 PAK = "countries/Pakistan.txt"
 BOT = "countries/Botswana.txt"
 MAN = "countries/Manchukou.txt"
+
+#New Countries
 DAN = "countries/Danzig.txt"
+MAC = "countries/Monaco.txt"
+SMR = "countries/San_Marino.txt"
+AND = "countries/Andorra.txt"
+VAT = "countries/Vatican.txt"
+LIE = "countries/Liechtenstein.txt"

@@ -475,6 +475,22 @@ DAN = {
 	color = rgb { 191 0 0 }
 	color_ui = rgb { 180 0 0 }
 }
+MAC = {
+	color = rgb { 205  132  178 }
+	color_ui = rgb { 205  132  178 }
+}
+SMR = {
+	color = rgb { 144  204  200 }
+	color_ui = rgb { 144  204  200 }
+}
+AND = {
+	color = rgb { 232  204  108 }
+	color_ui = rgb { 232  204  108 }
+}
+VAT = {
+	color = rgb { 225  229  185 }
+	color_ui = rgb { 225  229  185 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

@@ -1,0 +1,22 @@
+state={
+	id=763
+	name="STATE_763"
+	provinces={
+		13207 
+	}
+	
+	history = {
+		owner = AND
+		
+		buildings = {
+			infrastructure = 2
+			
+		}
+		add_core_of = AND
+		
+	}
+	
+	manpower=5600
+	state_category = town
+	buildings_max_level_factor=1.000
+}
