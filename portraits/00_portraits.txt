@@ -51,41 +51,68 @@ continent = {
 		social_liberalism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		conservatism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		market_liberalism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		reactionary = {
 				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"					
 			}
 		}
 		socialism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		fascism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		authoritarian = {
 				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		monarchism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					
 			}
 		}
 	}
@@ -122,41 +149,67 @@ continent = {
 		social_liberalism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		conservatism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		market_liberalism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		reactionary = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		socialism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		fascism = {
 				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		authoritarian = {
 				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		monarchism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 	}
@@ -217,11 +270,27 @@ continent = {
 		fascism = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"  
+					"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 			}
 		}
 		authoritarian = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"  
+					"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 			}
 		}
 		monarchism = {
@@ -258,46 +327,73 @@ continent = {
 		communism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		social_liberalism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		conservatism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		market_liberalism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		reactionary = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		socialism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		fascism = {
 				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		authoritarian = {
 				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		monarchism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 	}
@@ -375,6 +471,14 @@ continent = {
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
 			}
 		}
 		authoritarian = {
@@ -382,6 +486,16 @@ continent = {
 					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
+					"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
 			}
 		}
 		monarchism = {
@@ -448,13 +562,27 @@ continent = {
 			}
 		}
 		fascism = {
-				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_navy_3.dds"				
 			}
 		}
 		authoritarian = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+				"gfx/leaders/Asia/Portrait_Asia_Generic_navy_3.dds"				
 			}
 		}
 		monarchism = {
@@ -516,13 +644,25 @@ continent = {
 			}
 		}
 		fascism = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_1.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_2.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
 			}
 		}
 		authoritarian = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_1.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_2.dds"
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
 			}
 		}
 		monarchism = {
