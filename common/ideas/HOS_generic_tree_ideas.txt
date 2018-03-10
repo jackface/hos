@@ -16,6 +16,143 @@ ideas = {
 
 		}
 		
+		idea_red_army = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				war_support_factor = 0.15
+				training_time_army_factor = -0.5
+				conscription_factor = 0.2
+			}
+			
+
+		}
+		
+		idea_gulag_archipelago = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				conscription_factor = -0.3
+				enemy_partisan_effect = -0.80
+				trade_opinion_factor = -0.20
+			}
+			
+
+		}
+		
+		idea_world_communism = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				justify_war_goal_time = -0.50
+				communism_drift = 0.02
+			}
+			
+
+		}
+		
+		idea_eliminate_opposition = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				stability_factor = -0.25
+				foreign_subversive_activites = -1.00
+				trade_opinion_factor = -0.05
+				enemy_partisan_effect = -0.10
+			}
+			
+
+		}
+		
+		idea_socialism = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				socialism_drift = 0.02
+				social_liberalism_drift = 0.01
+			}
+			
+
+		}
+		
+		idea_centrism = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				market_liberalism_drift = 0.02
+				social_liberalism_drift = 0.01
+				conservatism_drift = 0.01
+			}
+			
+
+		}
+		
+		idea_capitalism = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				market_liberalism_drift = 0.02
+				conservatism_drift = 0.01
+				reactionary_drift = 0.01
+			}
+			
+
+		}
+		
+		idea_royal_power = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				monarchism_drift = 0.02
+			}
+			
+
+		}
+		
+		idea_authoritarianism = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				monarchism_drift = 0.01
+				authoritarian_drift = 0.02
+				fascism_drift = 0.01
+			}
+			
+
+		}
+		
+		idea_nation_first = {
+			
+			
+			removal_cost = -1
+			
+			modifiers = {
+				monarchism_drift = 0.01
+				authoritarian_drift = 0.01
+				fascism_drift = 0.02
+			}
+			
+
+		}
+		
 	}
 
 }
