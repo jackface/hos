@@ -1999,7 +1999,7 @@ focus_tree = {
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = docrtine_effort_II
+			focus = doctrine_effort_II
 		}
 		prerequisite = {
 			focus = armor_effort
@@ -2517,7 +2517,7 @@ focus_tree = {
 		y = 7
 
 		completion_reward = {
-			add_ideas = gulag_archipelago
+			add_ideas = idea_gulag_archipelago
 			add_political_power = 50
 		}
 
@@ -2545,7 +2545,7 @@ focus_tree = {
 			focus = reactionary
 			focus = conservatism
 			focus = social_liberalism
-			focus = real_socialism
+			focus = true_socialism
 			focus = market_liberalism
 		}
 		x = 17
@@ -2561,7 +2561,7 @@ focus_tree = {
 			focus = conservatism
 			focus = market_liberalism
 			focus = social_liberalism
-			focus = real_socialism
+			focus = true_socialism
 		}
 		x = 20
 		y = 9
@@ -2576,7 +2576,7 @@ focus_tree = {
 			focus = conservatism
 			focus = market_liberalism
 			focus = social_liberalism
-			focus = real_socialism
+			focus = true_socialism
 		}
 		x = 23
 		y = 9
