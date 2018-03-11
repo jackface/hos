@@ -27,6 +27,66 @@
  conservatism_noun:0 "Conservatism"
  conservatism_desc:0 "Democracy"
  
+ ###Sub-Ideology Descriptions
+ 
+ marxism:0 "Marxism"
+ marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
+ 
+ leninism:0 "Leninism"
+ leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
+ 
+ stalinism:0 "Stalinism"
+ stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
+ 
+ anti_revisionism:0 "Anti-Revisionism"
+ anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
+ 
+ anarchist_communism:0 "Anarcho-Communism"
+ anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+ 
+ maoism:0 "Maoism"
+ maoism_desc:0 "Having a central idea of permanent revolution and stressing the importance of the peasantry, of small-scale industry, and of agricultural collectivization."
+ 
+ subsocialism:0 "Socialism"
+ subsocialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ 
+ subsocial_liberalism:0 "Social Liberalism"
+ subsocial_liberalism_desc:0 "A political ideology that endorses a market economy and the expansion of civil and political rights, and also believes that the legitimate role of the government includes addressing economic and social issues such as poverty, health care and education."
+ 
+ submarket_liberalism:0 "Market Liberalism"
+ submarket_liberalism_desc:0 "Economic liberalism is an economic system organized on individual lines, which means the greatest possible number of economic decisions are made by individuals or households rather than by collective institutions or organizations."
+ 
+ subconservatism:0 "Conservatism"
+ subconservatism_desc:0 "Conservatism is a political and social philosophy promoting traditional social institutions in the context of culture and civilization."
+ 
+ subreactionary:0 "Reactionary"
+ subreactionary_desc:0 "A reactionary is a person who holds political views that favor a return to the status quo ante, the previous political state of society, which they believe possessed characteristics (discipline, respect for authority, etc.) that are negatively absent from the contemporary status quo of a society."
+ 
+ despotism:0 "Despotism"
+ despotism_desc:0 "Despotism or Autocracy is a form of government in which a single person rules with absolute power."
+ 
+ oligarchism:0 "Oligarchism"
+ oligarchism_desc:0 "Oligarchism is a form of government in which a group of people rule with absolute power."
+ 
+ absolutism:0 "Absolutism"
+ absolutism_desc:0 "Absolutism or an Absolute Monarchy is a form of government in which a single person, usually a king rules with absolute power, their power is usually inherited by what they claim to be as divine right."
+ 
+ theocracy:0 "Theocracy"
+ theocracy_desc:0 "Theocracy is a form of government in which a deity is the source from which all authority derives."
+ 
+ nazism:0 "National Socialism"
+ nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
+ 
+ fascism_ideology:0 "Fascism"
+ fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
+ 
+ falangism:0 "Falangism"
+ falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
+ 
+ rexism:0 "Rexism"
+ rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
+ 
+ 
  ###########
  #Germany
  ###########
