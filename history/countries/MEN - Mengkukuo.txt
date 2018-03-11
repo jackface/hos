@@ -10,23 +10,23 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		monarchism = {
+		authoritarian = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Prince Demchugdongrub"
-	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-	picture = "Portrait_MEN_Demchugdongrub.dds"
+	name = "Yondonwangchug"
+	desc = "POLITICS_YONDONWANGCHUG_DESC"
+	picture = "Portrait_MEN_Yondonwangchug.dds"
 	expire = "1965.1.1"
-	ideology = absolutism
+	ideology = despotism
 	traits = {
 		#spirit_of_genghis
 	}

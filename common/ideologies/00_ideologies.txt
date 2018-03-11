@@ -74,12 +74,12 @@ ideologies = {
 		color = { 255 173 181 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = no
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -87,13 +87,13 @@ ideologies = {
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.00
+			join_faction_tension = 0.55
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.30
+			guarantee_tension = 0.45
+			take_states_cost_factor = 0.05
+			annex_cost_factor = 0.05
 		}
 		
 		faction_modifiers = {
@@ -122,12 +122,12 @@ ideologies = {
 		color = { 255 162 91 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = no
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -135,13 +135,13 @@ ideologies = {
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.00
+			join_faction_tension = 0.55
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.30
+			guarantee_tension = 0.45
+			take_states_cost_factor = 0.05
+			annex_cost_factor = 0.05
 		}
 		
 		faction_modifiers = {
@@ -170,12 +170,12 @@ ideologies = {
 		color = { 255 228 112 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = no
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -183,13 +183,13 @@ ideologies = {
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.00
+			join_faction_tension = 0.55
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.30
+			guarantee_tension = 0.45
+			take_states_cost_factor = 0.05
+			annex_cost_factor = 0.05
 		}
 		
 		faction_modifiers = {
@@ -218,12 +218,12 @@ ideologies = {
 		color = { 0 0 255 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = no
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -231,13 +231,13 @@ ideologies = {
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.00
+			join_faction_tension = 0.55
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.30
+			guarantee_tension = 0.45
+			take_states_cost_factor = 0.05
+			annex_cost_factor = 0.05
 		}
 		
 		faction_modifiers = {
@@ -266,12 +266,12 @@ ideologies = {
 		color = { 128 128 128 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = no
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -279,13 +279,13 @@ ideologies = {
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.00
+			join_faction_tension = 0.55
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.30
+			guarantee_tension = 0.45
+			take_states_cost_factor = 0.05
+			annex_cost_factor = 0.05
 		}
 		
 		faction_modifiers = {
@@ -319,7 +319,7 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
@@ -356,7 +356,7 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
@@ -399,7 +399,7 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}

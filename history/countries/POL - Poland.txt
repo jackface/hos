@@ -70,11 +70,15 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
+ccreate_field_marshal = {
 	name = "Władysław Sikorski"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	traits = { defensive_doctrine }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_field_marshal = {
@@ -82,6 +86,10 @@ create_field_marshal = {
 	gfx = "GFX_POL_wladyslaw_bortnowski"
 	traits = {  thorough_planner }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -89,13 +97,21 @@ create_field_marshal = {
 	gfx = "GFX_POL_stanislav_kopanski"
 	traits = {  offensive_doctrine }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Władysław Anders"
 	gfx = "GFX_POL_wladislaw_anders"
-	traits = {  panzer_leader }
+	traits = {  armor_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -103,6 +119,10 @@ create_corps_commander = {
 	gfx = "GFX_POL_roman_abraham"
 	traits = {  }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -110,6 +130,10 @@ create_corps_commander = {
 	gfx = "GFX_POL_wincenty_kowalski"
 	traits = { trickster }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_equipment_variant = {

@@ -68,6 +68,10 @@ create_corps_commander = {
 	traits = { commando }
 	skill = 3
 
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -76,6 +80,10 @@ create_corps_commander = {
 	traits = {  hill_fighter }
 	skill = 4
 
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_navy_leader = {
