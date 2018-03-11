@@ -118,6 +118,62 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = "POLITICS_HERBERT_HOOVER_DESC"
+	picture = "Portrait_USA_Herbert_Hoover.dds"
+	expire = "1947.1.1"
+	ideology = submarket_liberalism
+}
+
+create_country_leader = {
+	name = "Jouett Shouse"
+	desc = "POLITICS_JOUETT_SHOUSE_DESC"
+	picture = "Portrait_USA_Jouett_Shouse.dds"
+	expire = "1947.1.1"
+	ideology = subconservatism
+}
+
+create_country_leader = {
+	name = "William Lemke"
+	desc = "POLITICS_WILLIAM_LEMKE_DESC"
+	picture = "Portrait_USA_William_Lemke.dds"
+	expire = "1947.1.1"
+	ideology = subreactionary
+}
+
+create_country_leader = {
+	name = "Omar Bradley"
+	desc = "POLITICS_OMAR_BRADLEY_DESC"
+	picture = "Portrait_USA_Omar_Bradley.dds"
+	expire = "1947.1.1"
+	ideology = oligarchism
+}
+
+create_country_leader = {
+	name = "Royal Council"
+	desc = "POLITICS_ROYAL_COUNCIL_DESC"
+	picture = "Portrait_USA_Royal_Council.dds"
+	expire = "1947.1.1"
+	ideology = absolutism
+}
+
+create_country_leader = {
+	name = "Norman Thomas"
+	desc = "POLITICS_NORMAN_THOMAS_DESC"
+	picture = "Portrait_USA_Norman_Thomas.dds"
+	expire = "1947.1.1"
+	ideology = subsocialism
+}
+
+create_country_leader = {
+	name = "Earl Browder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Portrait_USA_Earl_Browder.dds"
+	expire = "1947.1.1"
+	ideology = stalinism
+}
+
 1946.1.1 = {
 	set_politics = {
 
