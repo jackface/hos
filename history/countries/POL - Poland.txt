@@ -70,7 +70,7 @@ create_country_leader = {
 	}
 }
 
-ccreate_field_marshal = {
+create_field_marshal = {
 	name = "Władysław Sikorski"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	traits = { defensive_doctrine }
