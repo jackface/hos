@@ -47,6 +47,7 @@ continent = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 					"gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		social_liberalism = {
@@ -54,6 +55,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 					"gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		conservatism = {
@@ -61,6 +63,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 					"gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		market_liberalism = {
@@ -68,6 +71,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 					"gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		reactionary = {
@@ -75,6 +79,8 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"	
 					"gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		socialism = {
@@ -82,6 +88,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 					"gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		fascism = {
@@ -226,6 +233,7 @@ continent = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 			}
 		}
 	}
@@ -328,6 +336,7 @@ continent = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+
 		}
 	}
 	
@@ -343,7 +352,8 @@ continent = {
 		communism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		social_liberalism = {
@@ -362,6 +372,7 @@ continent = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		reactionary = {
