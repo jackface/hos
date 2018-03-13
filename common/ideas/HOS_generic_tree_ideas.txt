@@ -153,6 +153,31 @@ ideas = {
 
 		}
 		
+		idea_strong_nation = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.20
+			}
+			
+
+		}
+		
+		idea_share_the_wealth = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				enemy_partisan_effect = -0.10
+				
+			}
+			
+
+		}
+		
 	}
 
 }
