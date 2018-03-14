@@ -32,6 +32,12 @@ focus_tree = {
 		x = 27
 		y = 4
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = idea_strong_nation
+		}
+
 	}
 	focus = {	
 		id = industrial_effort
@@ -1276,6 +1282,10 @@ focus_tree = {
 		x = 15
 		y = 3
 
+		completion_reward = {
+			add_ideas = idea_share_the_wealth
+		}
+
 	}
 	focus = {
 		id = centrism
@@ -1306,6 +1316,10 @@ focus_tree = {
 		x = 18
 		y = 3
 
+		completion_reward = {
+			add_ideas = idea_mixed_economy
+		}
+
 	}
 	focus = {
 		id = welfare
@@ -1318,6 +1332,10 @@ focus_tree = {
 		x = 16
 		y = 4
 
+		completion_reward = {
+			add_ideas = idea_welfare
+		}
+
 	}
 	focus = {
 		id = national_healthcare
@@ -1328,6 +1346,10 @@ focus_tree = {
 		}
 		x = 15
 		y = 5
+
+		completion_reward = {
+			add_ideas = idea_national_healthcare
+		}
 
 	}
 	focus = {
@@ -1359,6 +1381,10 @@ focus_tree = {
 		x = 21
 		y = 3
 
+		completion_reward = {
+			add_ideas = idea_free_market
+		}
+
 	}
 	focus = {
 		id = free_speech
@@ -1385,6 +1411,10 @@ focus_tree = {
 		x = 18
 		y = 5
 
+		completion_reward = {
+			add_ideas = idea_armed_neutrality
+		}
+
 	}
 	focus = {
 		id = gun_control
@@ -1410,6 +1440,12 @@ focus_tree = {
 		}
 		x = 21
 		y = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+		}
 
 	}
 	focus = {
@@ -1456,6 +1492,10 @@ focus_tree = {
 		}
 		x = 19
 		y = 7
+
+		completion_reward = {
+			add_ideas = idea_recruitment_campaign
+		}
 
 	}
 	focus = {
@@ -1569,6 +1609,10 @@ focus_tree = {
 		x = 24
 		y = 3
 
+		completion_reward = {
+			add_ideas = idea_faith_in_the_monarch
+		}
+
 	}
 	focus = {
 		id = offensive_focus
@@ -1582,6 +1626,10 @@ focus_tree = {
 		}
 		x = 23
 		y = 4
+
+		completion_reward = {
+			add_ideas = idea_offensive_focus
+		}
 
 	}
 	focus = {
@@ -1597,6 +1645,10 @@ focus_tree = {
 		x = 25
 		y = 4
 
+		completion_reward = {
+			add_ideas = idea_defend_the_land
+		}
+
 	}
 	focus = {
 		id = recruitment_campaign
@@ -1608,6 +1660,10 @@ focus_tree = {
 		}
 		x = 24
 		y = 5
+
+		completion_reward = {
+			add_ideas = idea_recruitment_campaign
+		}
 
 	}
 	focus = {
@@ -1660,6 +1716,10 @@ focus_tree = {
 		}
 		x = 26
 		y = 3
+
+		completion_reward = {
+			add_ideas = idea_foreign_impeding
+		}
 
 	}
 	focus = {
@@ -1748,6 +1808,9 @@ focus_tree = {
 		x = 29
 		y = 4
 
+		completion_reward = {
+			add_ideas = idea_expand_the_nation
+		}
 	}
 	focus = {
 		id = military_youth
@@ -1789,6 +1852,10 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
+
+		completion_reward = {
+			add_ideas = idea_racial_policies
+		}
 
 	}
 	focus = {
@@ -1848,6 +1915,10 @@ focus_tree = {
 		}
 		x = 31
 		y = 3
+
+		completion_reward = {
+			add_ideas = idea_race_realism
+		}
 
 	}
 	focus = {
@@ -2507,6 +2578,10 @@ focus_tree = {
 		x = 12
 		y = 5
 
+		completion_reward = {
+			add_ideas = idea_thought_crimes
+		}
+
 	}
 	focus = {
 		id = foreign_meddling
@@ -2521,6 +2596,10 @@ focus_tree = {
 		x = 11
 		y = 6
 
+		completion_reward = {
+			add_ideas = idea_foreign_meddling
+		}
+
 	}
 	focus = {
 		id = abolish_tradition
@@ -2531,6 +2610,10 @@ focus_tree = {
 		}
 		x = 13
 		y = 7
+
+		completion_reward = {
+			add_ideas = idea_abolish_tradition
+		}
 
 	}
 	focus = {
@@ -2543,6 +2626,10 @@ focus_tree = {
 		}
 		x = 13
 		y = 6
+
+		completion_reward = {
+			add_ideas = idea_intimidation_tactics
+		}
 
 	}
 	focus = {
@@ -2617,6 +2704,16 @@ focus_tree = {
 		x = 18
 		y = 9
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
+			}
+			add_political_power = 150
+		}
+
 	}
 	focus = {
 		id = interventionism
@@ -2643,6 +2740,13 @@ focus_tree = {
 		}
 		x = 16
 		y = 10
+
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = deterrence
+		}
 
 	}
 	focus = {
