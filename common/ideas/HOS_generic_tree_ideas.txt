@@ -24,7 +24,7 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.15
 				training_time_army_factor = -0.5
-				conscription_factor = 0.2
+				conscription_factor = 0.02
 			}
 			
 
@@ -36,7 +36,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = -0.3
+				conscription_factor = -0.03
 				enemy_partisan_effect = -0.80
 				trade_opinion_factor = -0.20
 			}
@@ -259,6 +259,107 @@ ideas = {
                 industrial_capacity_factory = 0.07
                 industrial_capacity_dockyard = 0.07
                 stability_factor = 0.05
+			}
+			
+
+		}
+		
+		idea_intimidation_tactics = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.05
+				enemy_partisan_effect = -0.10
+			}
+			
+
+		}
+		
+		idea_abolish_tradition = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.10
+			}
+			
+
+		}
+		
+		idea_race_realism = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.05
+				justify_war_goal_time = -0.25
+			}
+			
+
+		}
+		
+		idea_foreign_meddling = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				subversive_activites_upkeep = -0.15
+			}
+			
+
+		}
+		
+		idea_foreign_impeding = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				foreign_subversive_activites = -0.15
+			}
+			
+
+		}
+		
+		idea_faith_in_the_monarch = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				monarchism_drift = 0.02
+				enemy_partisan_effect = -0.10
+			}
+			
+
+		}
+		
+		idea_defend_the_land = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_anti_air_building_factor = -0.20
+				production_speed_bunker_factor = -0.20
+			}
+			
+
+		}
+		
+		idea_offensive_focus = {
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+				
 			}
 			
 
